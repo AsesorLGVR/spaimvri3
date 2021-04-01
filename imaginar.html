@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  
+	<meta charset="UTF-8">
+	<title>Spanish Immersive</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="abandonar.css">
+  
+</head>
+<body>
+<header>
+  <div class="contenedor">
+     <h1>Imaginar - Presente</h1>
+    <h3>Verbo regular</h3>
+    <h3 id="resultado">Aciertos: 0</h3>
+    <button onclick="resultado()">Resultado <audio id="correcto" src="https://cdn.glitch.com/35d4f808-4084-4330-bab2-ff3dcb746151%2FJingle_Win_00.wav?v=1607648012453"></audio></button><button class="reset" id="reset"><i class="fas fa-redo"></i></button>
+   
+  </div>
+   <hr>
+  <div class="opcion">
+        <label for="">Conjuga:</label>
+
+          <select >
+           
+            <option value="Estás">imaginas</option>
+            <option value="Estamos">imaginamos</option>
+            <option value="Estáis">imagináis</option>
+            <option value="Están">imaginan</option>
+             <option id="estoy" value="Estoy">imagino</option>
+            <option value="Está">imagina</option>
+          </select>
+          <select >
+            <option value="Estoy">imagino</option>
+            <option id="estas" value="Estás">imaginas</option>
+            <option value="Estamos">imaginamos</option>
+            <option value="Está">imagina</option>
+            <option value="Están">imaginan</option>
+            <option value="Estáis">imagináis</option>
+          </select>
+          <select >
+            <option value="Estamos">imaginamos</option>
+            <option value="Estáis">imagináis</option>
+            <option value="Estoy">imagino</option>
+            <option id="esta" value="Está">imagina</option>
+            <option value="Están">imaginan</option>
+            <option value="Estás">imaginas</option>
+          </select>
+          <select >
+            <option value="Están">imaginan</option>
+            <option id="estamos" value="Estamos">imaginamos</option>
+            <option value="Estoy">imagino</option>
+            <option value="Está">imagina</option>
+            <option value="Estáis">imagináis</option>
+            <option value="Estás">imaginas</option>
+          </select>
+          <select >
+            <option value="Está">imagina</option>
+            <option value="Están">imaginan</option>
+            <option value="Estoy">imagino</option>
+            <option value="Estamos">imaginamos</option>
+            <option  value="Estás">imaginas</option>
+            <option id="estais" value="Estáis">imagináis</option>
+          </select>
+          <select >
+            <option value="Estáis">imagináis</option>
+            <option value="Estoy">imagino</option>
+            <option id="estan" value="Están">imaginan</option>
+            <option  value="Estás">imaginas</option>
+            <option value="Está">imagina</option>
+            <option value="Estamos">imaginamos</option>
+          </select>
+      
+      </div>
+    <ul class="pronombres">
+              <li >Yo <span id="demo0"></span></li>
+              <li >Tú <span id="demo1"></span></li>
+              <li >Él/Ella/Ud <span id="demo2"></span></li>
+              <li >Nosotros/as <span id="demo3"></span></li>
+              <li >Vosotros/as <span id="demo4"></span></li>
+              <li >Ellos/Ellas/Uds <span id="demo5"></span></li>
+        </ul> 
+</header>
+    
+   
+ 
+  <script src="jquery-1.12.3.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  <script src="imaginar.js"></script>
+</body>
+</html>

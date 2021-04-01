@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  
+	<meta charset="UTF-8">
+	<title>Spanish Immersive</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="estar.css">
+  
+</head>
+<body>
+<header>
+  <div class="contenedor">
+     <h1>Entregar - Presente</h1>
+    <h3>Verbo regular</h3>
+    <h3 id="resultado">Aciertos: 0</h3>
+    <button onclick="resultado()">Resultado <audio id="correcto" src="https://cdn.glitch.com/35d4f808-4084-4330-bab2-ff3dcb746151%2FJingle_Win_00.wav?v=1607648012453"></audio></button><button class="reset" id="reset"><i class="fas fa-redo"></i></button>
+   
+  </div>
+   <hr>
+  <div class="opcion">
+        <label for="">Conjuga:</label>
+
+          <select >
+           
+            <option value="Estás">entregas</option>
+            <option value="Estamos">entregamos</option>
+            <option value="Estáis">entregáis</option>
+            <option value="Están">entregan</option>
+             <option id="estoy" value="Estoy">entrego</option>
+            <option value="Está">entrega</option>
+          </select>
+          <select >
+            <option value="Estoy">entrego</option>
+            <option id="estas" value="Estás">entregas</option>
+            <option value="Estamos">entregamos</option>
+            <option value="Está">entrega</option>
+            <option value="Están">entregan</option>
+            <option value="Estáis">entregáis</option>
+          </select>
+          <select >
+            <option value="Estamos">entregamos</option>
+            <option value="Estáis">entregáis</option>
+            <option value="Estoy">entrego</option>
+            <option id="esta" value="Está">entrega</option>
+            <option value="Están">entregan</option>
+            <option value="Estás">entregas</option>
+          </select>
+          <select >
+            <option value="Están">entregan</option>
+            <option id="estamos" value="Estamos">entregamos</option>
+            <option value="Estoy">entrego</option>
+            <option value="Está">entrega</option>
+            <option value="Estáis">entregáis</option>
+            <option value="Estás">entregas</option>
+          </select>
+          <select >
+            <option value="Está">entrega</option>
+            <option value="Están">entregan</option>
+            <option value="Estoy">entrego</option>
+            <option value="Estamos">entregamos</option>
+            <option  value="Estás">entregas</option>
+            <option id="estais" value="Estáis">entregáis</option>
+          </select>
+          <select >
+            <option value="Estáis">entregáis</option>
+            <option value="Estoy">entrego</option>
+            <option id="estan" value="Están">entregan</option>
+            <option  value="Estás">entregas</option>
+            <option value="Está">entrega</option>
+            <option value="Estamos">entregamos</option>
+          </select>
+      
+      </div>
+    <ul class="pronombres">
+              <li >Yo <span id="demo0"></span></li>
+              <li >Tú <span id="demo1"></span></li>
+              <li >Ella <span id="demo2"></span></li>
+              <li >Nosotras <span id="demo3"></span></li>
+              <li >Vosotras <span id="demo4"></span></li>
+              <li >Ellas <span id="demo5"></span></li>
+        </ul> 
+</header>
+    
+   
+ 
+  <script src="jquery-1.12.3.min.js"></script>
+  <script src="entregar.js"></script>
+</body>
+</html>
